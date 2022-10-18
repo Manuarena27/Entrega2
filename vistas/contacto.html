@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../estilo/css/styles.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="../index.html"><img src="../img/logo.jpeg" alt="logo de la empresa" class="header__logo"></a>
+            <ul class="nav-m">
+                <h1 class="nav-title">SUPERMERCADO EL COLORADO</h1>
+                <li class="header__item"><a class="header__anchor" href="./../index.html">Inicio</a></li>
+                <li class="header__item"><a class="header__anchor" href="./nosotros.html">Nosotros</a></li>
+                <li class="header__item"><a class="header__anchor" href="./contacto.html">Contacto</a></li>
+                <li class="header__item"><a class="header__anchor" href="./propuesta.html">Propuesta</a></li>
+                <li class="header__item"><a class="header__anchor" href="./proyectos.html">Proyectos</a></li>
+            </ul>
+        </div>
+    
+
+    <hr>
+    <form action=""methad="GET" enctype="text/plain">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" required placeholder="Introduzca su nombre">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text"name="email" id="email" required>
+        </div>
+        <div>
+            <label for="ege">Edad</label>
+            <input type="number" name="ege" id="ege" min="1" max="100" step="5">
+        </div>
+        <div>
+            <label for="date">Fecha de Nacimiento</label>
+            <input type="date" name="date" id="date" min="2000-12-31">
+        </div>
+        <div>
+            <label for="male">Masculino</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+            <label for="female">Femenino</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <div>
+            <label>password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+            <label for="file"> subir archivos</label>
+            <input id="file" type="file" name="file">
+        </div>
+        <div>
+            <input type="reset" value="reinicar formularia">
+            <input type="submit" value="enviar formulario">
+        </div>
+        <div>
+            <label for="eyeColor">Color de ojos</label>
+            <select name="eyeColor" id="eyeColor" multiple>
+                <option value="Green" label="verde"></option>
+                <option value="Red" label="rojo"></option>
+            </select>
+            </div>
+    </form>
+</body>
+</html>

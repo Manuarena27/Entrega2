@@ -1,0 +1,111 @@
+*{
+    list-style: none;
+    margin: 0%;
+    text-decoration: none;
+}
+.nav-bar{
+    background-color: rgb(148, 148, 156);
+    width: 100%;
+    height: 116.73px;
+    display: flex;
+
+}
+
+.header__logo{
+    width: 120px;
+    height: auto;
+}
+
+.nav-m{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /*padding-left: 0px;*/
+}
+
+.nav-title{
+    padding-right: 500px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+
+.header__item{
+    padding-right: 55px;
+}
+
+.header__anchor{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.fondo-img{
+    background-image: url("../../img/supermarket.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-1{
+    width: 400px;
+    /*height: 100%;*/
+    margin-right: 40px;
+}
+
+.img-2{
+    width: 400px;
+    /*height: 100%;*/
+    margin-left: 40px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-1{
+    margin: auto;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn-1{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+
+}
+
+.text-2{
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    font-weight: 900;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.btn-2{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+
+}
+
+.fondoMain{
+    background-image: url("../../img/supermarket.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
